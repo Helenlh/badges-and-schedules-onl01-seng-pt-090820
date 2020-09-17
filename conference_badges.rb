@@ -1,50 +1,22 @@
- badge = "Hello, my name is #{name}."
-    let(:name) {"Arel"}
-  let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
-  let(:badges) {[
-                  "Hello, my name is Edsger.",
-                  "Hello, my name is Ada.",
-                  "Hello, my name is Charles.",
-                  "Hello, my name is Alan.",
-                  "Hello, my name is Grace.",
-                  "Hello, my name is Linus.",
-                  "Hello, my name is Matz."
-  end 
-  # it 'should return a formatted badge' do
-  #     expect(badge_maker(name)).to eq("Hello, my name is #{name}.")
-
-
-
-def badge_maker(name)
-  sample = []
-  name.each do | persons|
-  sample << persons
-  
-  end
-end 
-
-
-def conference_badges[]
- 
-end
- 
- 
-  def badge_badge_creator(sample)
+def conference_badges (name)
+  def badge_maker(name)
    
- end 
- 
- 
-  
-def badge_maker(attendees)
-    badge = []
-     attendees.each do |person|
-      puts "Hello, my name is #{person}"
-      badge << (person)
-      end
-    end 
-  
-  
-  def assign_rooms(attendees, rooms)
+    "Hello, my name is #{name}"
     
-  end
+  end 
+  def badge_maker(attendees)
+    badge = []
+    badge.each do |persons|
+    badge << 
+    
+  end 
 end 
+  def batch_badge_creator(new_badge)
+end 
+
+  def assign_rooms
+end 
+
+  def conference_badge_printer
+end
+end
