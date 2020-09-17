@@ -8,8 +8,8 @@ end
   
     def batch_badge_creato
       badge = []
-    badge.each do |attendees|
-    message = "Hello, my name is #{attendees}"
+    attendees.each do |badge| 
+     message = "Hello, my name is #{attendees}"
     message.each do |badge|
   
    end
