@@ -11,9 +11,7 @@ end
     attendees.each do |attendee| 
   badge << "Hello, my name is #{attendee}"
    end
-  end 
-end
-
+  end
 
   def assign_rooms(rooms, attendees)
   end 
