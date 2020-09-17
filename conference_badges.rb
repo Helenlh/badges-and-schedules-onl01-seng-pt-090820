@@ -6,14 +6,14 @@ def conference_badges (name)
   def badge_maker(attendees)
     badge = []
     badge.each do |persons|
-    badge << persons
+    badge << attendees 
   end 
 
 
-  def batch_badge_creator(new_badge)
+  def batch_badge_creator()
 end 
 
-  def assign_rooms
+  def assign_rooms(rooms, attendees)
 end 
 
   def conference_badge_printer
