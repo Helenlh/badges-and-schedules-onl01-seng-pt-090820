@@ -10,12 +10,11 @@ end
       badge = []
     badge.each do |attendees|
     message = "Hello, my name is #{attendees}"
-    message.each do (badge)
+    message.each do |badge|
   
    end
   end 
 end
-  end
 
 
   def assign_rooms(rooms, attendees)
