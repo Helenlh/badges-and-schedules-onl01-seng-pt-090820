@@ -2,17 +2,21 @@ def conference_badges (name)
 end
 
   def badge_maker(name)    
-      puts "HEllo, my name is #{name}"
-   end 
-
-
+     "Hello, my name is #{name}."
+  end
+  
+  
   def batch_badge_creator(attendees)
-    badges = []
-    attendees.each do |persons|
-    badges << "Hello, mhy name is #{attendees}, "
+    badge = []
+    badge.each do |attendees|  
+    message = "Hello, my name is #{attendees}"
+    message.each do |badge|
+  
    end
   end 
-  
+end 
+
+
   def assign_rooms(rooms, attendees)
   end 
 
@@ -22,4 +26,4 @@ end
   attendees.each do |persons|
   puts "Welcome #{attendees}, you are assigned to room #{room}+1."
   end
-end
+end  
