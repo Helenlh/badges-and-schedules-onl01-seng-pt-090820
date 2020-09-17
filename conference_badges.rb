@@ -11,7 +11,7 @@ end
     badge.each do |attendees|  
       badge << attendees
     message = "Hello, my name is #{attendees}"
-    badge << message
+    
   
    end
   end 
