@@ -1,16 +1,15 @@
 def conference_badges (name)
-  def badge_maker(name)
-   
-    "Hello, my name is #{name}"
-    
+         "Hello, my name is #{name}"
   end 
+  
+
   def badge_maker(attendees)
     badge = []
     badge.each do |persons|
-    badge << 
-    
+    badge << persons
   end 
-end 
+
+
   def batch_badge_creator(new_badge)
 end 
 
