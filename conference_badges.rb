@@ -15,11 +15,7 @@ end
    end
   end 
 end
-    
-  
-   end
-  end 
-end 
+  end
 
 
   def assign_rooms(rooms, attendees)
