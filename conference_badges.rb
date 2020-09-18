@@ -16,12 +16,11 @@ end
   end
 
   def assign_rooms(attendees) 
-    i = 0
    room_assignments = attendees.map.with_index {|attendee, i|}
-    "Welcome #{[attendees]}! You'll be assigned to room #{i}!"+1 
-    i += 1 
-    
+    puts "Welcome #{[attendees]}! You'll be assigned to room #{i}+1!"
   end 
+end 
+
 
   def printer(attendees)
   attendees.each do |badge|
