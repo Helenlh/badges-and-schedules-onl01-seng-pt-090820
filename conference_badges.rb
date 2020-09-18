@@ -15,13 +15,18 @@ end
    badge 
   end
 
-  def assign_rooms(rooms, attendees)
+  def assign_rooms(attendees) 
+    i = 0
+   room_assignments = attendees.map.with_index {|attendee, i|}
+    "Welcome #{[attendees]}! You'll be assigned to room #{i}!"+1 
+    i += 1 
+    
   end 
 
-
-
-  def conference_badge_printer(attendees)
-  attendees.each do |persons|
-  puts "Welcome #{attendees}, you are assigned to room #{room}+1."
+  def printer(attendees)
+  attendees.each do |badge|
+       puts "Hello, my name is #{attendees}"
+       puts "Welcome #{attendees}! You will be assigned to room #{i}"
   end
+end 
 end  
