@@ -1,3 +1,5 @@
+# require pry
+
 def conference_badges (name)
 end
 
@@ -15,17 +17,13 @@ end
    badge 
   end
 
-  def assign_rooms(attendees) 
-   room_assignments = [attendees].map.with_index {|attendee, i|
-    puts "Welcome #{[attendees]}! You'll be assigned to room #{i}+1!"}
+
+def assign_rooms(attendees) 
+   room_assignments = attendees.map.with_index(attendees) { 
+   puts "Hello, #[attendees, i]! You'll be assigned to room {i+1"}
+   
   end 
-end 
 
 
-  def printer(attendees)
-  attendees.each do |badge|
-       puts "Hello, my name is #{attendees}"
-       puts "Welcome #{attendees}! You will be assigned to room #{i}"
-  end
-end 
-end  
+
+
