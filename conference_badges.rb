@@ -20,7 +20,7 @@ end
 
 def assign_rooms(attendees) 
    room_assignments = attendees.map.with_index(attendees) { 
-   puts "Hello, #[attendees, i]! You'll be assigned to room" index +1}
+   puts "Hello, #[attendees, i]! You'll be assigned to room"} index +1
    
   end 
 
